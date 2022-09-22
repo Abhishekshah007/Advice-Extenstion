@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    box-sizing: content-box;
+    padding: 0;
+    
+
+}
+
+body {
+    width:400px;
+    height:300px;
+ }
+
+
+.title-msg{
+    text-align: center;
+    font-family: sans-serif;
+    font-variant-caps: petite-caps;
+    text-shadow: -1px 2px 4px red;
+    color: red;
+    margin-top:50px;
+}
+
+.btn-container{
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    margin: 1rem;
+    width: auto;
+}
+
+.add-advice{
+    padding: 2%;
+    font-size: 18px;
+    font-family: monospace;
+    font-weight: bolder;
+    color: darkblue;
+    margin: 0.5rem;
+    border-radius: 6px;
+    box-shadow: 1px 4px 10px midnightblue;
+}
+
+.add-startup{
+    padding: 2%;
+    font-size: 18px;
+    font-family: monospace;
+    font-weight: bolder;
+    color: green;
+    margin: 0.5rem;
+    border-radius: 6px;
+    box-shadow: 1px 4px 10px greenyellow;
+}
+
+.search-marvel{
+    padding: 2%;
+    font-size: 18px;
+    font-family: monospace;
+    font-weight: bolder;
+    color: black;
+    margin: 0.5rem;
+    border-radius: 6px;
+    box-shadow: 1px 4px 10px darkolivegreen;
+}
+
+.list{
+    padding: 1%;
+    font-size: 16px;
+    font-family: monospace;
+    font-weight: bolder;
+    color: black;
+    margin: 1rem;
+    border-radius: 6px;
+    box-shadow: 1px 4px 10px darkolivegreen;
+}
+
+.saving{
+    padding: 1%;
+    font-size: 16px;
+    font-family: monospace;
+    font-weight: bolder;
+    color: green;
+    margin: 0.5rem;
+    border-radius: 6px;
+    box-shadow: 1px 4px 10px darkolivegreen;
+}
+
+
+
+input{
+    width: 90%;
+    margin: 4%;
+}
+
+.data{
+    
+    text-align: center;
+    margin: 10%;
+    display: inline-block;
+
+}
+
+.backBtn{
+
+    width: 100px;
+    height: 50px;
+    font-size: large;
+    font-weight: bold;
+    color: darkblue;
+    background: darkgray;
+
+}
